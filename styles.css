@@ -171,6 +171,9 @@ a:hover svg { transform: rotate(-45deg); }
 .convocatoria-individual { background:#eef4ff;padding:15px;border-radius:5px;padding-bottom:20px;transition:all .3s ease-out; }
 .convocatoria-individual:hover { margin-top:-3px; }  
 
+/* Mapa */
+#map { margin: 5em auto; width: 1300px; heigth 20px; }
+#map iframe{ width: 100%; height: 100%;}
 
 /*Redes */
 .logos_redes { position: absolute;width: 98.59px;top: -1px;left: 0px;float: left; }
