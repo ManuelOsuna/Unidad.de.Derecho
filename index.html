@@ -10,7 +10,7 @@
       
 </head>
 <body>
-
+     
     <div class="container-fluid blue-header-main header">
         <div class="container">
             <div class="row">
@@ -37,7 +37,8 @@
             UNIVERSIDAD AUTÓNOMA DE SINALOA
         </div>
     </div>
-
+	
+<!--MENU-->
     <div class="container-fluid header-menu sticky-top">
         <div class="container menu">
         <div class="menu-menu-container"><ul id="main-menu" class="main-menu"><li id="menu-item-57018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55452 current_page_item menu-item-57018"><a href="index.html" aria-current="page">INICIO</a></li>
@@ -47,7 +48,9 @@
 <li id="menu-item-56430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56430"><a>Servicios</a>
 
 </li>
+			
 <li id="menu-item-56459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56459"><a>Oferta Educativa</a>
+</li>	
 
 <li id="menu-item-56474" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56474"><a>Contacto</a>
 
@@ -63,6 +66,31 @@
 </li>     
 
 </ul></div>
+    <!-- Botón para abrir el menú -->
+    <a class="menu-nav-movil" data-bs-toggle="offcanvas" href="#menu-movil-fcqb" role="button" aria-controls="menu-movil-fcqb">
+        Menú
+    </a>
+
+    <!-- Menú Móvil (Offcanvas de Bootstrap) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menu-movil-fcqb" aria-labelledby="menu-movil-fcqbLabel">
+        <div class="offcanvas-header">
+            <h5 id="menu-movil-fcqbLabel">Menú</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">noticias</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Oferta Educativa</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Alumnos</a></li>
+                <li><a href="#">Docentes</a></li>
+                <li><a href="#">Convocatorias</a></li>
+            </ul>
+        </div>
+    </div>
 <!-- TERMINA MENU -->
 
 
@@ -179,6 +207,7 @@
         <img src="Imagenes/Servicios/serv-escolares.png" width="252" height="220" class="img-fluid">
         <br><br>Servicios<br>Escolares</h2><br><br>
   </div>
+  </div>
 </footer>
    
 	
@@ -200,10 +229,8 @@
 </p>         
       </div>
 </div>
-    
-<!--Direccion y Contacto-->
-<div class="row">
-<div class="col-xl-6"><span style="color:#666666;font-size: 20px;font-weight:normal;line-height:100%;">Universidad Autonoma de Sinaloa <br>
+    <div class="row">
+      <div class="col-xl-6"><span style="color:#666666;font-size: 20px;font-weight:normal;line-height:100%;">Universidad Autonoma de Sinaloa <br>
 Unidad Academica de Derecho y Ciencias Politicas <br>
 Fuente de poseidon y Blvd. Manuel J. Clouthier s/n Col Jiquilpa, dentro de C.U<br>
 Los Mochis, Sinaloa. México. <br>
@@ -216,13 +243,10 @@ Correo: academia.derechoycp.mochis@gmail.com </span>&nbsp;</div>
       </div>
       </div>
 <div class="separador"></div>
-<!--Termina Direccion y contacto -->	
-
-<!--Mapa-->
-	<div id="map">
+	    <div id="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.730255179065!2d-108.98721282923162!3d25.812471756404072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ba28b08b908e49%3A0x68bc19b7cf51076d!2sFacultad%20de%20Derecho%20y%20Ciencia%20Pol%C3%ADtica%20-%20Los%20Mochis%20-%20UAS!5e0!3m2!1ses-419!2smx!4v1732384831759!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-<!-- Termina Mapa-->	
+	
 	
 <!--Fotter -->	
 <div class="container-fluid footer">
@@ -247,9 +271,6 @@ Correo: academia.derechoycp.mochis@gmail.com </span>&nbsp;</div>
         
     })
 </script>
-
-
-</body></html>
 
 
 </body></html>
