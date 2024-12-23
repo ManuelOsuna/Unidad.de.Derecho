@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+	    <div class="container-fluid blue-header-main header">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-3 col-sm-2 col-lg-2 col-xl-2 logo-uas">
+                  <img src="Imagenes/logo_uas.webp" alt="Logo universidad autónoma de sinaloa">
+                </div>
+
+                <div class="col-sm-6 col-lg-5 col-xl-6 titulo-sitio">
+                    <div class="titulo">Unidad Academica de <br>Derecho y Ciencias Politicas</div>
+                </div>
+
+                <div class="col-8 col-sm-4 col-lg-5 col-xl-4 logos-institucionales">
+                    <img src="Imagenes/LogoUnidad.png" alt="Logo de la facultad de ciencias químico">
+                    <img src="Imagenes/LogoAdmin.webp" alt="Administración de la universidad autónoma de sinaloa 2025">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid blue-header-secundary header">
+        <div class="container etiqueta-uas">
+            UNIVERSIDAD AUTÓNOMA DE SINALOA
+        </div>
+    </div>
+	
+<!--MENU-->
+    <div class="container-fluid header-menu sticky-top">
+        <div class="container menu">
+        <div class="menu-menu-container"><ul id="main-menu" class="main-menu"><li id="menu-item-57018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55452 current_page_item menu-item-57018"><a href="index.html" aria-current="page">INICIO</a></li>
+<li id="menu-item-56488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56488"><a>Noticias</a>
+
+</li>
+<li id="menu-item-56430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56430"><a>Servicios</a>
+
+</li>
+			
+<li id="menu-item-56459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56459"><a>Oferta Educativa</a>
+</li>	
+
+<li id="menu-item-56474" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56474"><a href="contacto.html" aria-crrent="page">Contacto</a>
+
+</li>
+<li id="menu-item-56431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56431"><a>Acerca de</a>
+
+</li>
+<li id="menu-item-56931" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56931">Alumnos<a></a>
+</li>
+<li id="menu-item-56942" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56941"><a>Docentes</a>
+</li>    
+<li id="menu-item-56954" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-56951"><a>Convocatorias</a>
+</li>     
+
+</ul></div>
+    <!-- Botón para abrir el menú -->
+    <a class="menu-nav-movil" data-bs-toggle="offcanvas" href="#menu-movil-fcqb" role="button" aria-controls="menu-movil-fcqb">
+        Menú
+    </a>
+
+    <!-- Menú Móvil (Offcanvas de Bootstrap) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menu-movil-fcqb" aria-labelledby="menu-movil-fcqbLabel">
+        <div class="offcanvas-header">
+            <h5 id="menu-movil-fcqbLabel">Menú</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">noticias</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Oferta Educativa</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Alumnos</a></li>
+                <li><a href="#">Docentes</a></li>
+                <li><a href="#">Convocatorias</a></li>
+            </ul>
+        </div>
+    </div>
+<!-- TERMINA MENU -->
+
+
+        </div>
+    </div>
+	
+    <style>
+        .form-contact {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .form-telefono {
+            display: flex;
+            align-items: center;
+        }
+        .telefono {
+            display: flex;
+            flex: 1;
+        }
+        .telefono select, .telefono input {
+            margin-right: 10px;
+        }
+    </style>
+<body>
+
+<div class="container mt-5">
+    <div class="form-contact">
+        <h1>Contacto</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required placeholder="Nombre completo">
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" class="form-control" id="correo" name="correo" required placeholder="example@gmail.com">
+            </div>
+            <div class="form-group form-telefono">
+                <label for="telefono">Teléfono de contacto :</label>
+                <div class="telefono">
+                    <select class="form-control" name="codigo_pais" id="codigo_pais">
+                        <option value="+52">+52</option>
+                        <!-- Puedes agregar más códigos de país aquí -->
+                    </select>
+                    <input type="number" class="form-control" id="telefono" name="telefono" required placeholder="10 digitos">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="tipo_solicitud">Solicitud:</label>
+                <select id="tipo_solicitud" class="form-control" name="tipo_solicitud" required>
+                    <option value="Servicios">Servicios Escolar</option>
+                    <option value="Quejas">Quejas</option>
+                    <option value="Convocatoria">Inscripcion de Convocatorias</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" class="form-control" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</div>
+	
+<div> </div>	
+
+	<!--Fotter -->	
+<div class="container-fluid footer">
+    <div class="row" id="big">
+        <div class="col-12">
+            <img src="Imagenes/CuadroPieUas.png" class="foot_logo1 img-fluid">		
+            <p class="titulo-footer"><i>Sursum Versus</i></p>		
+            <img src="Imagenes/CuadroPieAdmin.png" class="foot_logo2 img-fluid">
+        </div>
+    </div>  
+</div>
+<!-- Fin de Fotter-->
+
+<!-- Bootstrap JS and dependencies-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
